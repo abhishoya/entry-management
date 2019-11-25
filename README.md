@@ -50,7 +50,7 @@ module.exports = config;
 
 - Visitor visits the home page.
 - He might choose to check in or check out depending upon the scenario.
-- Upon check in user is required to fill a form with necessary details. This will trigger an SMS and an Email to the host.
+- Upon check in user is required to fill a form with necessary details. Form validation using validator. This will trigger an SMS and an Email to the host.
 - Check out time is default set to NULL.
 - Upon return the visitor can check themselves out providing the email id they registered with.
 - Check out time is updated and email is triggered to the visitor's email id.
