@@ -19,9 +19,12 @@ $ cd front-end
 $ cd src && touch config.js && cd ../
 $ npm install
 ```
+
+Content in config.js created
+
 ```sh
 const config = {
-  host: 'NODE_SERVER_URL_PATH' // default http://localhost:5000
+  host: 'NODE_SERVER_URL_PATH' // http://localhost:5000
 };
 module.exports = config;
 ```
@@ -33,6 +36,8 @@ $ npm install
 $ touch config.js
 $ node index.js
 ```
+
+Content in config.js created
 
 ```sh
 const config = {
