@@ -1,7 +1,7 @@
 # Entry Management
 Entry Management System - Innovaccer SummerGeeks 2020 SDE-Intern Assignment.
 
-This repository has branches for front-end and back-end separately.
+~~This repository has branches for front-end and back-end separately.~~
 
 # Tech Stack
 - Front-End : ReactJS
@@ -12,33 +12,25 @@ Database can be set up locally with the help of phpmyadmin.
 
 # Run this project locally
 
-#### Front - End
 ```sh
-$ git clone https://github.com/shoydex23/entry-management.git -front-end
-$ cd front-end
-$ cd src && touch config.js && cd ../
+$ git clone https://github.com/shoydex23/entry-management.git
+$ touch config.js
 $ npm install
+$ cd client
+$ touch src/config.js
+$ npm install
+$ cd ../
+$ npm run dev
 ```
 
-Content in config.js created
-
+#### ${path_to_clone}/client/src/config.js
 ```sh
 const config = {
   host: 'NODE_SERVER_URL_PATH' // http://localhost:5000
 };
 module.exports = config;
 ```
-#### Back - End
-```sh
-$ git clone https://github.com/shoydex23/entry-management.git -back-end
-$ cd back-end
-$ npm install
-$ touch config.js
-$ node index.js
-```
-
-Content in config.js created
-
+#### ${path_to_clone}/config.js
 ```sh
 const config = {
     host: 'HOST',
